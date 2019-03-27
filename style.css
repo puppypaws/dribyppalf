@@ -1,3 +1,25 @@
+title {
+-moz-transform: scale(-1, 1);
+-webkit-transform: scale(-1, 1);
+-o-transform: scale(-1, 1);
+-ms-transform: scale(-1, 1);
+transform: scale(-1, 1);
+}
 h1 {
-	font: Roboto
+font-size: 50px;
+font-weight: 700;
+font-family: "Roboto", sans-serif;
+-moz-transform: scale(-1, 1);
+-webkit-transform: scale(-1, 1);
+-o-transform: scale(-1, 1);
+-ms-transform: scale(-1, 1);
+transform: scale(-1, 1);
+}
+h2 {
+font-size: 25px;
+font-family: "Roboto", serif;
+}
+p {
+font-size: 15px;
+font-family: "Roboto", serif;
 }
