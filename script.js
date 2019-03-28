@@ -2,6 +2,7 @@
 var cvs = document.getElementById('canvas');
 //Allows manipulation eg. gravity within canvas
 var obj = cvs.getContext('2d');
+
 //Load image
 var red = new Image();
 var bg = new Image();
@@ -18,13 +19,17 @@ southBlock.src = 'pics/southBlock.png'; //52x378
 //Gap between pillars
 var gap = 73;
 var constant;
+
 //Player start position (starts from top left) (y-axis is inverted +/-)
 var bX = 30;
 var bY = 150;
+
 //Push square down, greater = stronger
 var gravity = 1.5;
+
 //Score variable
 var score = 0;
+
 //Block co-od
 var block = [];
 //Restrict blocks to screen dimensions
